@@ -116,4 +116,4 @@ Student Developer
 
 ## 📄 License
 
-This open-source project is available under the [MIT License](LICENSE).
+This open-source project is available under the [MIT License]([LICENSE](https://github.com/Benson-Mwakake/Code-Challenge-1/blob/main/License)).
