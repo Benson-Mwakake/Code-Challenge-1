@@ -8,7 +8,7 @@ Welcome to **Code Challenge 1**, a simple JavaScript-based set of programs desig
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure.
 
 ```
 Code-Challenge-1/
