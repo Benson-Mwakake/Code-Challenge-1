@@ -12,12 +12,14 @@ function estimateTransactionFee(amountToSend){
         fee = maxFee
     }
 
+    const outputDiv = document.getElementById("output");
+
     const totalAmount = amountToSend+fee
 
-    console.log(`Sending KES ${amountToSend}`)
-    console.log(`Calculated Transaction Fee: KES ${fee}`)
-    console.log(`Total amount to be debited: KES ${totalAmount}`)
-    console.log("Send Money Securely!")
+    outputDiv.innerHTML += `Sending KES ${amountToSend}<br>`;
+    outputDiv.innerHTML += `Calculated Transaction Fee: KES ${fee}<br>`;
+    outputDiv.innerHTML += `Total amount to be debited: KES ${totalAmount}<br>`;
+    outputDiv.innerHTML += `Send Money Securely!<br>`;
 
 }
 

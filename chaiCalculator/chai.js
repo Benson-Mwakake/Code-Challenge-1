@@ -10,12 +10,15 @@ function calculateChaiIngredients(numberOfCups) {
     const majani = majaniPerCup * numberOfCups;
     const sugar = sugarPerCup * numberOfCups;
 
-    console.log(`To make ${numberOfCups} cups of Kenyan Chai, you will need:`);
-    console.log(`Water: ${water} ml`);
-    console.log(`Milk: ${milk} ml`);
-    console.log(`Tea Leaves (Majani): ${majani} tablespoons`);
-    console.log(`Sugar: ${sugar} teaspoons`);
-    console.log("Enjoy your Chai Bora!");
+    const outputDiv = document.getElementById("output");
+
+
+    outputDiv.innerHTML += `To make ${numberOfCups} cups of Kenyan Chai, you will need:<br>`;
+    outputDiv.innerHTML += `Water: ${water} ml<br>`;
+    outputDiv.innerHTML += `Milk: ${milk} ml<br>`;
+    outputDiv.innerHTML += `Tea Leaves (Majani): ${majani} tablespoons<br>`;
+    outputDiv.innerHTML += `Sugar: ${sugar} teaspoons<br>`;
+    outputDiv.innerHTML += `njoy your Chai Bora!<br>`;
 }
 
 // Ask the user for input, convert to number and run function
