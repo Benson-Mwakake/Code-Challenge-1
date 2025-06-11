@@ -8,7 +8,7 @@ Welcome to **Code Challenge 1**, a simple JavaScript-based set of programs desig
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure.
 
 ```
 Code-Challenge-1/
@@ -33,8 +33,8 @@ This tool helps calculate how much water, milk, tea leaves, and sugar is needed 
 
 ### How It Works
 
-* Prompts the user for number of cups.
-* Calculates total amount of each ingredient needed.
+* Prompts the user for the number of cups.
+* Calculates the total amount of each ingredient needed.
 * Prints a friendly message with the quantities.
 
 ### Sample Output
@@ -58,7 +58,7 @@ Calculates the total fare of a boda boda ride based on the trip distance.
 ### How It Works
 
 * Base fare: KES 50
-* Per kilometer charge: KES 15
+* Per kilometre charge: KES 15
 
 ### Sample Output
 
@@ -111,10 +111,9 @@ Send Money Securely!
 
 **Benson Mwanake**
 Student Developer
-[Your GitHub Profile](https://github.com/your-username)
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This open-source project is available under the [MIT License]([LICENSE](https://github.com/Benson-Mwakake/Code-Challenge-1/blob/main/License)).
